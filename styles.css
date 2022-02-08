@@ -1,0 +1,165 @@
+body {
+  color: gold;
+  background-image: url("https://wallpaperaccess.com/full/344620.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  padding: 50px;
+  background-color: rgb(107, 43, 226);
+  color: gold;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container #to-read {
+  flex: 1;
+}
+
+.container #book-finder {
+  flex: 1;
+}
+
+.container #favorite-books {
+  flex: 1;
+}
+
+
+#to-read {
+  font-size: 35px;
+  background-color: rgb(107, 43, 226);
+  text-align: center;
+}
+
+#book-finder {
+  font-size: 35px;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+#book-search {
+  font-size: 35px;
+  text-align: center;
+}
+
+#favorite-books {
+  font-size: 35px;
+  background-color: rgb(107, 43, 226);
+  text-align: center;
+}
+
+#search-results {
+display: flex;
+}
+
+book-box {
+background-color: cadetblue;
+flex: 1;
+}
+
+#cover {
+  flex: 1;
+}
+
+#add-btns {
+  display: flex;
+  border: 10px solid black;
+  background-color: cadetblue;
+  }
+
+  add-read-list-btn {
+    flex: 1;
+  }
+
+  add-favorites-list-btn {
+    flex: 1;
+  }
+
+  .remove-buttons {
+    font-size: 10px;
+  }
+
+  /* register */
+/* Dropdown Button */
+.drop-btn, #submit-search, #add-left-button, #add-right-button, .remove-buttons, #register-btn, #log-in-btn, #register-submit-btn, #log-in-submit-btn, #sign-out-btn {
+  background-color: cadetblue;
+  color: black;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.drop-btn:hover, .drop-btn:focus, .remove-buttons:hover, #add-left-button:hover, #add-right-button:hover, #submit-search:hover, #register-btn:hover, #log-in-btn:hover, #register-submit-btn:hover, #log-in-submit-btn:hover, #sign-out-btn:hover {
+  background-color: gold;
+}
+
+.register-container {
+  position: relative;
+  display: inline-block;
+}
+
+.register-content {
+  display: none;
+  position: absolute;
+  background-color: cadetblue;
+  border: 10px solid black;
+  z-index: 1;
+}
+
+.show {display:block;}
+
+
+  /* log in */
+  .log-in-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .log-in-content {
+    display: none;
+    position: absolute;
+    background-color: cadetblue;
+    border: 10px solid black;
+    z-index: 1;
+  }
+
+  .showTwo {display:block;}
+
+ #user-functionality {
+  display: inline;
+  }
+
+  p {
+    font-size: 20px;
+    padding-top: 30px;
+    color: gold;
+  }
+
+  #sign-out-button {
+    padding: 10%
+  }
+
+  /* pics */
+  #right-pic {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-right: 75px;
+  }
+
+  #left-pic {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 75px;
+  }
+
+  /* h3 */
+  h3 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bomak</title>
+  <link rel="Stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Bomak
+    <img id="right-pic" src="https://cdn.dribbble.com/users/708424/screenshots/7961575/media/5634c53a6642cfbba99d9aaa52d42443.png?compress=1&resize=400x300">
+    <img id="left-pic" src="https://cdn.dribbble.com/users/708424/screenshots/7961575/media/5634c53a6642cfbba99d9aaa52d42443.png?compress=1&resize=400x300">
+    <section id="user-functionality">
+      <br>
+      <div class="register-container">
+        <button id="register-btn" class="drop-btn">Register</button>
+        <div id="register-form" class="register-content">
+          <input id="register-username-input" type="text" placeholder="Username">
+          <input id="register-password-input" type="text" placeholder="Password">
+          <button id="register-submit-btn">Submit</button>
+        </div>
+      </div>
+      <div class="log-in-container">
+        <button id="log-in-btn" class="drop-btn">Log In</button>
+        <div id="log-in-form" class="log-in-content">
+          <input id="log-in-username-input" type="text" placeholder="Username">
+          <input id="log-in-password-input" type="text" placeholder="Password">
+          <button id="log-in-submit-btn">Submit</button>
+        </div>
+      </div>
+    </section>
+  </h1>
+  <h2>
+    <div class="container">
+      <div id="to-read">
+        <u>Your to read list:</u>
+        <ul id="bullet-list">
+        </ul>
+      </div>
+      <div id="book-finder">
+        <u>Find a book here</u>
+        <br>
+        <input id="book-search" type="text" placeholder="Insert an ISBN number">
+        <br>
+        <button id="submit-search">Submit</button>
+        <br>
+        <section id="search-results"></section>
+        <section id="add-buttons"></section>
+      </div>
+      <div id="favorite-books">
+        <u>Your favorite books:</u>
+        <ul id="bullet-list-Two">
+        </ul>
+      </div>
+    </div>
+  </h2>
+  <h3>
+    By Cole Hendershot
+  </h3>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
