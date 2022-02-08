@@ -37,7 +37,7 @@ h1 {
 
 #book-finder {
   font-size: 35px;
-  background-color: cadetblue;
+  background-color: rgb(216, 93, 84);
   text-align: center;
 }
 
@@ -57,7 +57,7 @@ display: flex;
 }
 
 book-box {
-background-color: cadetblue;
+background-color: rgb(216, 93, 84);
 flex: 1;
 }
 
@@ -68,7 +68,7 @@ flex: 1;
 #add-btns {
   display: flex;
   border: 10px solid black;
-  background-color: cadetblue;
+  background-color: rgb(216, 93, 84);
   }
 
   add-read-list-btn {
@@ -86,7 +86,7 @@ flex: 1;
   /* register */
 /* Dropdown Button */
 .drop-btn, #submit-search, #add-left-button, #add-right-button, .remove-buttons, #register-btn, #log-in-btn, #register-submit-btn, #log-in-submit-btn, #sign-out-btn {
-  background-color: cadetblue;
+  background-color: rgb(216, 93, 84);
   color: black;
   cursor: pointer;
 }
@@ -104,7 +104,7 @@ flex: 1;
 .register-content {
   display: none;
   position: absolute;
-  background-color: cadetblue;
+  background-color: rgb(216, 93, 84);
   border: 10px solid black;
   z-index: 1;
 }
@@ -121,7 +121,7 @@ flex: 1;
   .log-in-content {
     display: none;
     position: absolute;
-    background-color: cadetblue;
+    background-color: rgb(216, 93, 84);
     border: 10px solid black;
     z-index: 1;
   }
